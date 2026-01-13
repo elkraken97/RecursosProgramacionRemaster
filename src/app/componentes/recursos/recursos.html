@@ -1,0 +1,39 @@
+
+<div class="main-wrapper">
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+
+  <div class="glass-container">
+    <header>
+      <h1>Recursos <span class="highlight">Dev</span></h1>
+      <p>Biblioteca gratuita de programación</p>
+    </header>
+
+    <div class="search-bar">
+      <i class="search-icon">🔍</i>
+      <input
+        type="text"
+        [(ngModel)]="searchTerm"
+        (input)="filterList()"
+        placeholder="¿Qué quieres aprender hoy?"
+      >
+    </div>
+
+    <div class="list-container">
+      <p *ngIf="isLoading" class="loading">Cargando recursos...</p>
+
+      <ul *ngIf="!isLoading">
+        <li *ngFor="let item of filteredResources" class="list-item">
+          <a [href]="item.url" target="_blank" rel="noopener noreferrer">
+            <span class="link-text">{{ item.title }}</span>
+            <span class="arrow">→</span>
+          </a>
+        </li>
+      </ul>
+
+      <div *ngIf="!isLoading && filteredResources.length === 0" class="no-results">
+        <p>No se encontraron resultados para "{{searchTerm}}"</p>
+      </div>
+    </div>
+  </div>
+</div>
