@@ -4,7 +4,7 @@
   { "title": "DJango with example (libro)", "url": "https://github.com/PacktPublishing/Django-4-by-example/tree/main" },
   { "title": "Curso de pentensting", "url": "https://www.terabox.app/spanish/sharing/link?surl=JYJLjt-9_Y_NMRKi2ISSdA&path=%2FHacking%20%C3%89tico%20Ofensivo.%20100%25%20Practico%20en%20Red%20Team.%20%2B43hs" },
   { "title": "Arquitetura de java", "url": "https://www.arquitecturajava.com/" },
-  { "title": "hackplaining hacking etico", "url": "https://hackplaining.com/" },
+  { "title": "Hackplaining hacking etico", "url": "https://hackplaining.com/" },
   { "title": "Repositorio de todo lo de programacion UNI MASIVO", "url": "https://github.com/jwasham/coding-interview-university" },
   { "title": "Curso de bash/shell", "url": "https://github.com/mouredev/hello-bash-shell" },
   { "title": "Sintaxis y informacion de todos los lenguajes de programacion", "url": "https://learnxinyminutes.com/" },
@@ -22,6 +22,6 @@
   { "title": "Problemas de SQL ", "url": "https://datalemur.com/" },
   { "title": "250000 cursos de todo tipo", "url": "https://www.classcentral.com/" },
   { "title": "BootCamp gratuito para cualquier lenguiaje de programacion gratis", "url": "https://www.youtube.com/openbootcamp" },
-  {"title": "Documentacion de lenguajes de programacion","url": "https://www.w3schools.com/"}
-
+  {"title": "Documentacion de lenguajes de programacion","url": "https://www.w3schools.com/"},
+  {"title": "Explicacion de JOIN en SQL","url": "https://learnsql.es/blog/7-ejemplos-de-sql-join-con-explicaciones-detalladas/"}
 ]
